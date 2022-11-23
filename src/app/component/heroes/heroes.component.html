@@ -4,6 +4,7 @@
     <button
       [class.selected]="hero === selectedHero"
       type="button"
+      class="btn btn-success"
       (click)="onSelect(hero)"
     >
       <span class="badge">{{ hero.id }}</span>
